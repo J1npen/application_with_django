@@ -23,6 +23,10 @@ The urls.py file tells Django which pages to build in response to browser reques
 
 wsgi.py file helps Django serve the files it creates. The filename is an acronym for web server gateway interface
 
-### learning_log/models.py
+### learning_logs_app/models.py
 
 We'll use models.py to define the data we want to manage in our app.
+
+### learning_logs_app/admin.py
+
+We'll use admin.py to register the models that we have defined. Such as Topic and Entry.
