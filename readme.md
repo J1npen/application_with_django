@@ -26,4 +26,3 @@ wsgi.py file helps Django serve the files it creates. The filename is an acronym
 ### learning_log/models.py
 
 We'll use models.py to define the data we want to manage in our app.
-
