@@ -3,21 +3,22 @@
 I will create a Django-base web application following the Python Crash Course.  
 And also I will use Git to manage my code.
 
-## Project Goals
+## Documentation
 
-- Learn Django fundamentals by building a practical web application.
-- Practice version control with Git throughout the development process.
-- Document key steps and lessons learned for future reference.
+### manage.py
 
-## Prerequisites
+manage.py is a short program that takes in commands and feeds them to the relevant part of Django to run them.
+We'll use these commands to manage tasks like working with databases and running servers.
 
-- Python 3.x installed
-- Basic understanding of Python programming
-- Familiarity with Git and GitHub
+### learning_log/settings.py
 
-## Getting Started
+The settings.py file controls how Django interacts with your system and manage your porject.
+We'll modify a few of these settings and add some settings of our own as project evolves.
 
-1. Clone this repository.
-2. Set up a virtual environment.
-3. Install dependencies from `requirements.txt`.
-4. Follow the step-by-step guides in each section to build the application.
+### learning_log/urls.py
+
+The urls.py file tells Django which pages to build in response to browser requests.
+
+### learning_log/wsgi.py
+
+wsgi.py file helps Django serve the files it creates. The filename is an acronym for web server gateway interface
