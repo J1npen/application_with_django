@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Log</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+</head>
+<body>
+    <header>
+        <h1><a href="{% url 'index' %}" style="color: #fff;">Learning Log</a></h1>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Learning Log</p>
+    </footer>
+</html>

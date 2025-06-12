@@ -1,0 +1,56 @@
+/* Base styles for Learning Log */
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f9fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2d6cdf;
+    color: #fff;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(45, 108, 223, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+main {
+    flex: 1;
+    min-width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+footer {
+    background-color: #e9ecef;
+    color: #555;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-top: 1px solid #d1d5db;
+}
+
+a {
+    color: #2d6cdf;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #174ea6;
+    text-decoration: underline;
+}
