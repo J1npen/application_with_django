@@ -30,3 +30,11 @@ We'll use models.py to define the data we want to manage in our app.
 ### learning_logs_app/admin.py
 
 We'll use admin.py to register the models that we have defined. Such as Topic and Entry.
+
+### learning_logs_app/views.py
+
+A view in Django is a Python function or class that takes a web request and returns a web response. The response can be an HTML page, a redirect, an error message, or any other HTTP response.
+
+### learning_logs_app/templates
+
+learning_log/urls.py -> learning_logs_app/views.py -> learning_logs_app/templates
