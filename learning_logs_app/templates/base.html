@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <title>Learning Log</title>
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block extra_css %}{% endblock extra_css %}
 </head>
 <body>
     <header>
         <h1><a href="{% url 'index' %}" style="color: #fff;">Learning Log</a></h1>
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{% url 'topics' %}">Topics</a></li>
+        </ul>
+    </nav>
 
     <main>
         {% block content %}

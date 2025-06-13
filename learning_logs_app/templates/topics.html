@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+<style>
+ul {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+h2 {
+    color: #2980b9;
+    margin-bottom: 1em;
+}
+</style>
+{% endblock extra_css %}
+
+{% block content %}
+<h2>Topics</h2>
+
+<ul>
+    {% for topic in topics %}
+        <li>
+            {{ topic }}
+        </li>
+    {% empty %}
+        <li>No topics available.</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
